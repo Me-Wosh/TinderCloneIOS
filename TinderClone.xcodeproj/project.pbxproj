@@ -11,6 +11,9 @@
 		FCA20A7129D6100700096FA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA20A7029D6100700096FA0 /* ContentView.swift */; };
 		FCA20A7329D6100800096FA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA20A7229D6100800096FA0 /* Assets.xcassets */; };
 		FCA20A7629D6100800096FA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA20A7529D6100800096FA0 /* Preview Assets.xcassets */; };
+		FCA20A7D29D6409500096FA0 /* PhoneIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA20A7C29D6409500096FA0 /* PhoneIcon.swift */; };
+		FCF8D03829D8C9DB00D8E908 /* TinderIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF8D03729D8C9DB00D8E908 /* TinderIcon.swift */; };
+		FCF8D03C29D8E09800D8E908 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = FCF8D03B29D8E09800D8E908 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		FCA20A7029D6100700096FA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FCA20A7229D6100800096FA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCA20A7529D6100800096FA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FCA20A7C29D6409500096FA0 /* PhoneIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneIcon.swift; sourceTree = "<group>"; };
+		FCF8D03729D8C9DB00D8E908 /* TinderIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderIcon.swift; sourceTree = "<group>"; };
+		FCF8D03B29D8E09800D8E908 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +57,12 @@
 		FCA20A6D29D6100700096FA0 /* TinderClone */ = {
 			isa = PBXGroup;
 			children = (
+				FCF8D03A29D8DD6600D8E908 /* Views */,
+				FCF8D03929D8DD1F00D8E908 /* Icons */,
 				FCA20A6E29D6100700096FA0 /* TinderCloneApp.swift */,
-				FCA20A7029D6100700096FA0 /* ContentView.swift */,
 				FCA20A7229D6100800096FA0 /* Assets.xcassets */,
 				FCA20A7429D6100800096FA0 /* Preview Content */,
+				FCF8D03B29D8E09800D8E908 /* .gitignore */,
 			);
 			path = TinderClone;
 			sourceTree = "<group>";
@@ -65,6 +73,23 @@
 				FCA20A7529D6100800096FA0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FCF8D03929D8DD1F00D8E908 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				FCA20A7C29D6409500096FA0 /* PhoneIcon.swift */,
+				FCF8D03729D8C9DB00D8E908 /* TinderIcon.swift */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		FCF8D03A29D8DD6600D8E908 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FCA20A7029D6100700096FA0 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCA20A7629D6100800096FA0 /* Preview Assets.xcassets in Resources */,
+				FCF8D03C29D8E09800D8E908 /* .gitignore in Resources */,
 				FCA20A7329D6100800096FA0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +165,8 @@
 			files = (
 				FCA20A7129D6100700096FA0 /* ContentView.swift in Sources */,
 				FCA20A6F29D6100700096FA0 /* TinderCloneApp.swift in Sources */,
+				FCF8D03829D8C9DB00D8E908 /* TinderIcon.swift in Sources */,
+				FCA20A7D29D6409500096FA0 /* PhoneIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
