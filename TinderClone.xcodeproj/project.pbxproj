@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC5D4E9229DC3AE900945702 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5D4E9129DC3AE900945702 /* LoginView.swift */; };
+		FC5D4E9429DC3C8B00945702 /* LoginFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5D4E9329DC3C8B00945702 /* LoginFormView.swift */; };
 		FCA20A6F29D6100700096FA0 /* TinderCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA20A6E29D6100700096FA0 /* TinderCloneApp.swift */; };
 		FCA20A7129D6100700096FA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA20A7029D6100700096FA0 /* ContentView.swift */; };
 		FCA20A7329D6100800096FA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA20A7229D6100800096FA0 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC5D4E9129DC3AE900945702 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FC5D4E9329DC3C8B00945702 /* LoginFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormView.swift; sourceTree = "<group>"; };
 		FCA20A6B29D6100700096FA0 /* TinderClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCA20A6E29D6100700096FA0 /* TinderCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderCloneApp.swift; sourceTree = "<group>"; };
 		FCA20A7029D6100700096FA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				FCA20A7029D6100700096FA0 /* ContentView.swift */,
+				FC5D4E9129DC3AE900945702 /* LoginView.swift */,
+				FC5D4E9329DC3C8B00945702 /* LoginFormView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -165,7 +171,9 @@
 			files = (
 				FCA20A7129D6100700096FA0 /* ContentView.swift in Sources */,
 				FCA20A6F29D6100700096FA0 /* TinderCloneApp.swift in Sources */,
+				FC5D4E9429DC3C8B00945702 /* LoginFormView.swift in Sources */,
 				FCF8D03829D8C9DB00D8E908 /* TinderIcon.swift in Sources */,
+				FC5D4E9229DC3AE900945702 /* LoginView.swift in Sources */,
 				FCA20A7D29D6409500096FA0 /* PhoneIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
